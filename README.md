@@ -1,38 +1,44 @@
 # ⚡ Multi-Chain Data Toolkit
 **Architect & Lead Developer:** SJAYJAYBEE  
+**Environment:** Cloud-Native / Zero-Latency Execution  
 
-> *"Data is the lifeblood of Web3. I built this toolkit to demonstrate rapid, secure, and highly accurate data extraction across both off-chain social layers and on-chain RPC nodes."*
+---
+
+> *"I built this toolkit because relying on public, third-party APIs for on-chain and off-chain data is a massive bottleneck. What you're looking at is a master index of custom data engineering tools designed to bypass traditional hardware limits and extract data with zero latency."*
 
 ## 🎯 Architecture Overview
-This repository serves as the master index for a suite of custom data engineering tools I've developed. Designed for maximum speed and security, these scripts bypass traditional local hardware bottlenecks by executing directly in cloud-compute environments.
+This repository serves as the master index for a suite of custom-built data engineering scripts. Web3 moves too fast to wait for standard block explorers to update. I architected these tools to run entirely in cloud-compute environments, allowing for rapid, secure execution without lagging local hardware.
 
 ---
 
 ### 🟢 Module 1: AI Crypto Sentiment Matrix
-A Natural Language Processing (NLP) engine fine-tuned specifically for Web3 terminology. It ingests social media data streams and assigns mathematical sentiment scores, filtering out the usual market noise.
+Most Twitter scrapers break or get rate-limited. I built this Natural Language Processing (NLP) engine specifically fine-tuned for Web3 terminology. It bypasses the noise, ingests social media data streams, and assigns mathematical sentiment scores. 
 
-* **Tech Stack:** Python 3, VADER NLP Lexicon (Custom Web3 Dictionary)
-* **Execution:** Local Cloud Memory (Zero API latency)
-* **Core Function:** Replaces lagging, rate-limited Twitter scrapers with an instant, localized NLP matrix that actually understands crypto slang like "buy wall," "TVL," and "bearish."
+* **Tech Stack:** Python 3, VADER NLP Lexicon (Web3 Fine-Tuned)
+* **Execution:** Local Cloud Memory 
+* **Core Function:** An instant, localized NLP matrix that actually understands crypto slang like "buy wall," "TVL," and "bearish."
 
-🎥 **[Watch the Live Execution PoC](https://youtu.be/mQPRziVz8Vg?si=aTanWwyeUEfdV7JI)**
+🎥 **[Watch Execution PoC: AI Crypto Sentiment Matrix](https://youtu.be/mQPRziVz8Vg)**
 
 ---
 
 ### 🟣 Module 2: Solana RPC Latency Engine
-A lightweight, aggressive network diagnostic tool. Instead of relying on standard block explorers, it fires JSON-RPC payloads directly at Solana Mainnet and Devnet nodes to calculate raw finality speed in milliseconds.
+A lightweight, highly aggressive network diagnostic tool. Instead of trusting frontend dashboards, this script fires JSON-RPC payloads directly at Solana Mainnet and Devnet nodes to calculate raw finality speed in milliseconds.
 
 * **Tech Stack:** Python 3, JSON-RPC, REST APIs
 * **Execution:** Direct Node Interrogation
-* **Core Function:** Demonstrates the ability to handle raw blockchain data streams, monitor network degradation, and interact with Layer-1 infrastructure without heavy middleware.
+* **Core Function:** Proves the ability to handle raw blockchain data streams, monitor network degradation, and interact with Layer-1 infrastructure without heavy middleware.
 
-🎥 **[Watch the Live Diagnostic PoC](https://youtu.be/QrfSxmCnyfA?si=JPRXnMaAFOYnO-YH)**
-
----
-
-## 🔒 Security & OPSEC Protocol
-* **Zero-Leak Policy:** All active `.env` files, API keys, and sensitive access tokens are strictly isolated from this public repository. You will only find sanitized code architecture here. 
-* **Verified Execution:** Because Web3 demands a trustless environment, the capabilities of this toolkit are proven via the live demonstration videos linked above, complete with my verifiable developer watermarks to ensure authenticity.
+🎥 **[Watch Live Diagnostic: Solana RPC Latency Engine](https://youtu.be/QrfSxmCnyfA)**
 
 ---
-*Architected for the decentralized web by SJAYJAYBEE.*
+
+## 🔒 OPSEC & Data Sanitization Protocol
+As a security standard, I do not expose live production environments or proprietary routing logic to the public. Please note the following regarding the code and video proofs above:
+
+* **Simulated Data (PoC):** To ensure zero risk of live API manipulation, the data streams shown in this repository and the accompanying videos are running on **simulated placeholder data**. This proves the logic and execution flow without faking live financial data.
+* **Visual Obfuscation:** You will notice custom watermarks, highlights, and obscured code blocks in the execution videos. This is intentional. I actively obscure specific source code paths to protect my proprietary architecture from being scraped by public bots.
+* **Zero-Leak Policy:** All active `.env` files, API keys, and sensitive access tokens are strictly isolated from this public branch. 
+
+---
+*Architected for the 2026 decentralized landscape by SJAYJAYBEE.*
