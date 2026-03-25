@@ -1,41 +1,40 @@
 # ⚡ Multi-Chain Data Toolkit
-**Architect & Lead Developer:** SJayJaybee  
-**Environment:** Cloud-Native / Zero-Latency Execution  
+**Lead Architect & Developer:** SJayJaybee  
 
 ---
 
-> *"Data is the lifeblood of Web3. This toolkit demonstrates rapid, secure, and highly accurate data extraction across both off-chain social layers and on-chain RPC nodes."*
+> *"Data is the lifeblood of Web3. I built this toolkit to demonstrate how to extract, process, and act on critical market data quickly and securely. By bypassing traditional hardware bottlenecks and utilizing cloud-native execution, these tools deliver zero-latency results."*
 
 ## 🎯 Architecture Overview
-This repository serves as the master index for a suite of custom-built data engineering tools. Designed for maximum speed and security, these scripts bypass traditional local hardware bottlenecks by utilizing cloud-compute environments for execution.
+This repository serves as the master index for a suite of custom-built data engineering tools. Whether it's reading market psychology off-chain or pinging Layer-1 infrastructure on-chain, these scripts are designed for maximum speed, accuracy, and security.
 
 ---
 
 ### 🟢 Module 1: AI Crypto Sentiment Matrix
-A Natural Language Processing (NLP) engine fine-tuned for Web3 terminology. It ingests social media data streams and assigns mathematical sentiment scores, filtering out market noise.
+Standard AI models don't understand crypto markets. I built a Natural Language Processing (NLP) engine and fine-tuned it specifically for Web3 terminology. It ingests social media data streams and assigns mathematical sentiment scores, filtering out market noise.
 
 * **Tech Stack:** Python 3, VADER NLP Lexicon (Web3 Fine-Tuned)
-* **Execution:** Local Cloud Memory (Zero API latency)
-* **Core Function:** Replaces lagging Twitter scrapers with an instant, localized NLP matrix that actually understands crypto slang like "buy wall," "TVL," and "bearish."
+* **Execution:** Local Cloud Memory 
+* **The Value:** Replaces lagging Twitter scrapers with an instant, localized AI matrix that actually understands what terms like "buy wall," "TVL," and "bearish" mean for price action.
 
-🎥 **[Live Execution Proof: Insert Unlisted YouTube Link Here]**
+🎥 **[Watch the Live Execution PoC](https://youtu.be/mQPRziVz8Vg?si=aTanWwyeUEfdV7JI)**
 
 ---
 
 ### 🟣 Module 2: Solana RPC Latency Engine
-A lightweight, aggressive network diagnostic tool. It bypasses standard block explorers and fires JSON-RPC payloads directly at Solana Mainnet and Devnet nodes to calculate raw finality speed in milliseconds.
+A lightweight, aggressive network diagnostic tool. Instead of relying on slow block explorers, this script bypasses the middleware and fires JSON-RPC payloads directly at Solana Mainnet and Devnet nodes to calculate raw finality speed in milliseconds.
 
 * **Tech Stack:** Python 3, JSON-RPC, REST APIs
 * **Execution:** Direct Node Interrogation
-* **Core Function:** Proves the ability to handle raw blockchain data streams, monitor network degradation, and interact with Layer-1 infrastructure without heavy middleware.
+* **The Value:** Proves the ability to handle raw blockchain data streams, monitor network degradation, and interact directly with Layer-1 infrastructure.
 
-🎥 **[Live Execution Proof: Insert Unlisted YouTube Link Here]**
-
----
-
-## 🔒 Security & Deployment Protocol
-* **Zero-Leak Policy:** All active `.env` files, API keys, and sensitive access tokens are strictly isolated from this public repository. 
-* **Live Verification:** Because Web3 demands trustless verification, the capabilities of this toolkit are proven via the live, unedited terminal execution videos linked above. 
+🎥 **[Watch the Live Diagnostic](https://youtu.be/QrfSxmCnyfA?si=JPRXnMaAFOYnO-YH)**
 
 ---
-*Built for the 2026 decentralized landscape by SJayJaybee.*
+
+## 🔒 Security & OPSEC Protocol
+* **Zero-Leak Policy:** You will not find any active `.env` files, API keys, or sensitive access tokens in this public repository. Client and protocol security is my absolute priority.
+* **Live Verification:** Because Web3 demands a "don't trust, verify" approach, the actual capabilities of this toolkit are proven via the live, unedited terminal execution videos linked above. 
+
+---
+*Architected for the decentralized landscape by SJayJaybee.*
