@@ -29,7 +29,7 @@ def main():
     time.sleep(1)
     
     # ---------------------------------------------------------
-    # THE CRUSHER: Fine-tuning the AI with single-word triggers
+    # Initialize custom Web3 NLP Lexicon matrix
     # ---------------------------------------------------------
     sia = SentimentIntensityAnalyzer()
     crypto_dict = {
