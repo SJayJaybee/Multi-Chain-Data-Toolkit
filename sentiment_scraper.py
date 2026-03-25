@@ -5,8 +5,8 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 # Silently load the local AI dictionary
 nltk.download('vader_lexicon', quiet=True)
 
-print("[*] SYSTEM BOOT: Crypto Sentiment Scraper v2.2 (Data-Cleaned NLP)")
-print("[*] Authenticated Developer: SJayJaybee")
+print("[*] SYSTEM BOOT: Crypto Sentiment Scraper v2.4 (Data-Cleaned NLP)")
+print("[*] Authenticated Developer: SJAYJAYBEE")
 print("[*] Injecting Custom Web3 Lexicon into VADER Matrix...")
 print("-" * 40)
 time.sleep(1)
@@ -24,7 +24,7 @@ def analyze_sentiment(text, sia):
         return "NEUTRAL", compound
 
 def main():
-    token = "$SOL"
+    token = "$ETH"
     print(f"\n[*] Initializing Local AI Crypto Sentiment Scraper for {token}...\n")
     time.sleep(1)
     
@@ -35,24 +35,25 @@ def main():
     crypto_dict = {
         "bullish": 2.5,
         "bearish": -2.5,
-        "buy": 1.5,       # Catches "buy wall"
-        "flying": 1.5,
-        "adoption": 1.5,
-        "dropping": -2.0, # Catches "dropping sharply"
-        "congestion": -1.5,
-        "annoying": -1.5
+        "pump": 1.5,      # Catches "pump will be legendary"
+        "gem": 1.5,       # Catches "absolute gem"
+        "accumulation": 1.5,
+        "dumping": -2.0,  # Catches "dumping soon"
+        "rekt": -2.0,     # Catches "got completely rekt"
+        "gas": -1.5       # Negative context for high fees
     }
     sia.lexicon.update(crypto_dict)
     
     print(f"[*] Fetching recent X data stream (Simulated PoC)...\n")
     time.sleep(1)
     
+    # Updated dataset to reflect Ethereum ecosystem sentiment
     mock_tweets = [
-        "Solana network speeds are absolutely flying today. Bullish on $SOL.",
-        "Just sold my bag. The congestion issues on $SOL are getting annoying.",
-        "Major institutional buy wall spotted for $SOL at $140. Up we go!",
-        "Total value locked dropping sharply across Solana DeFi. Not looking good.",
-        "New integration announced for $SOL! Mass adoption is imminent."
+        "ETH gas fees are finally dropping. Mass adoption incoming. Bullish on $ETH.",
+        "Whale alert: Massive sell wall spotted for $ETH. Looks like we are dumping soon.",
+        "Just bought the dip! $ETH is an absolute gem at these levels.",
+        "Got completely rekt by the slippage on that last trade. Ethereum layer 1 is still too slow.",
+        "Institutional money is quietly in accumulation mode for $ETH. The next pump will be legendary."
     ]
     
     bullish_count = 0
