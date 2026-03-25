@@ -6,7 +6,7 @@ print("[*] SYSTEM BOOT: Solana Network Speed Tester v1.0")
 print("[*] Authenticated Developer: SJayJaybee")
 print("-" * 50)
 
-# We define the target endpoints (The client will watch you switch these live)
+# Define target RPC endpoints
 ENDPOINTS = {
     "Mainnet": "https://api.mainnet-beta.solana.com",
     "Devnet": "https://api.devnet.solana.com"
@@ -49,7 +49,7 @@ def ping_solana(network, url, iterations=5):
         except Exception as e:
              print(f"  [!] Ping {i+1}/5: CRITICAL CONNECTION ERROR")
         
-        # Pause slightly between pings so the terminal output looks readable and dramatic
+        # Add slight delay to respect standard rate limits
         time.sleep(0.8)
 
     # Calculate and display the final average
@@ -67,9 +67,7 @@ def ping_solana(network, url, iterations=5):
     print("-" * 50)
 
 def main():
-    # ---------------------------------------------------------
-    # THE LIVE TWEAK: Change "Mainnet" to "Devnet" while recording
-    # ---------------------------------------------------------
+    # Set target environment configuration (Mainnet/Devnet)
     TARGET_NETWORK = "Mainnet" 
     
     url = ENDPOINTS.get(TARGET_NETWORK)
